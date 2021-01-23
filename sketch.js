@@ -31,7 +31,7 @@ function setup(){
 
     box = createSprite(random(20, 750), 20, 25, 25)
     box.shapeColor = "white";
-    box.velocityX = random(-10);
+    box.velocityX = (-5);
     box.velocityY = (10);
 
     aGroup = new Group();
